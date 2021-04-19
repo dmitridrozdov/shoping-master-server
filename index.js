@@ -24,9 +24,9 @@ mongoose.connect(process.env.CONNECTION_URL, {useNewUrlParser: true, useUnifiedT
 
 mongoose.set('useFindAndModify', false)
 
-// app.get('/', (req,res) => { //FOR DEPLOYMENT
-//     res.send('hello to sm-2')
-// })
+app.get('/', (req,res) => { //FOR DEPLOYMENT
+    res.send('hello to sm-2')
+})
 
 
 
