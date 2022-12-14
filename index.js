@@ -19,7 +19,7 @@ app.use('/currentlist', currentListRouts)
 const PORT = process.env.PORT || 5000
 
 const connection_url = process.env.CONNECTION_URL
-console.log(connection_url)
+console.log("blablabala")
 
 mongoose.connect(connection_url, {useNewUrlParser: true, useUnifiedTopology: true})
     .then(() => app.listen(PORT, () => console.log(`Server running on port: ${PORT}`)))
